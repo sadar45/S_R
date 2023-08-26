@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .rooms {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .room {
+    border: 2px solid #eff31e;
+    padding: 20px;
+    margin: 15px;
+  }
+  buttons {
+    position: fixed;
+    bottom: 10px;
+    right: 05px;
+    display: flex;
+    flex-direction: column;
+}
+
+  
+#shuffleButton,
+#downloadButton {
+    background-color: #756eda;
+    color: #e7bc30;
+    border: none;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#shuffleButton:hover,
+#downloadButton:hover {
+    background-color: #29afd1;
+}
+#downloadButton {
+    background-color: #928c91;
+    color: #1cd6c7;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-color: rgb(185, 164, 248);
+}
+.room-number {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+    background-color: #4285F4;
+    color: #800404;
+    padding: 9px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+  
+  
